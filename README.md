@@ -74,3 +74,37 @@ Sau mỗi lần chạy chương trình sẽ hiển thị:
 - Cost
 - Thời gian chạy
 - Bộ nhớ sử dụng (nếu có)
+
+HƯỚNG DẪN 
+Clone project từ GitHub
+git clone https://github.com/ngminhtri-trizie/Tr-Tu-Nh-n-T-o.git
+Di chuyển vào thư mục project:
+cd Tr-Tu-Nh-n-T-o
+
+3. Cài đặt thư viện
+Nếu project có file requirements.txt, chạy:
+pip install -r requirements.txt
+Hoặc cài đặt thủ công (nếu cần):
+pip install tkinter
+Lưu ý: Tkinter đã được tích hợp sẵn trong hầu hết các bản cài đặt Python trên Windows.
+
+4. Chạy chương trình
+Trong thư mục gốc của project, chạy:
+python main.py
+Hoặc:
+python3 main.py
+
+🖥️ Hướng dẫn sử dụng
+Khởi động chương trình.
+Nhấn Tạo bàn cờ ngẫu nhiên (Shuffle) để sinh trạng thái ban đầu.
+Chọn nhóm thuật toán ở khung Algorithms.
+Chọn thuật toán cần thực hiện.
+Nhấn Bắt đầu (Start) để chạy.
+Quan sát quá trình giải bài toán trên giao diện.
+Theo dõi các thông tin thống kê:
+Cost
+Số bước
+Độ sâu
+Số nút mở rộng
+Thời gian chạy
+Xem lại các lần chạy trong mục Lịch sử chạy (History).
